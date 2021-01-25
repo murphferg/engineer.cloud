@@ -1,0 +1,4 @@
+baseURL = "http://engineer.cloud/"
+languageCode = "en-us"
+title = "Murph-Ferg's Cloud Blog"
+theme = "air"

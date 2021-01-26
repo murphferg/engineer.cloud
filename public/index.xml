@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Murph-Ferg&#39;s Cloud Blog</title>
+    <link>https://www.engineer.cloud/</link>
+    <description>Recent content on Murph-Ferg&#39;s Cloud Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Jan 2021 21:39:59 -0500</lastBuildDate><atom:link href="https://www.engineer.cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure Service Bus Transport Type</title>
+      <link>https://www.engineer.cloud/azure-service-bus/transport-type/</link>
+      <pubDate>Sun, 24 Jan 2021 21:39:59 -0500</pubDate>
+      
+      <guid>https://www.engineer.cloud/azure-service-bus/transport-type/</guid>
+      <description>Azure Service Bus Transport Type By default, the Azure Service Bus will use a TransportType of Advanced Message Queuing Protocol (AMQP), which uses the assigned port number is 5672 or 5671 for AMQPS (TLS/SSL encrypted AMQP). These ports appear blocked on either Crowe laptops, or the Crowe network. Since I don’t have admin rights on my laptop, I couldn’t determine if this is a local firewall or an enterprise networking issue.</description>
+    </item>
+    
+    <item>
+      <title>sample</title>
+      <link>https://www.engineer.cloud/post/test/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.engineer.cloud/post/test/</guid>
+      <description>Hugo is the world&amp;rsquo;s fastest static website engine. It&amp;rsquo;s written in Go (aka Golang) and developed by bep, spf13 and friends.
+ Below you will find some of the most common and helpful pages from our documentation.
+ https://gohugo.io/documentation/</description>
+    </item>
+    
+    <item>
+      <title>test post</title>
+      <link>https://www.engineer.cloud/post/test/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.engineer.cloud/post/test/</guid>
+      <description>echo &amp;#34;hello world !!&amp;#34; </description>
+    </item>
+    
+  </channel>
+</rss>

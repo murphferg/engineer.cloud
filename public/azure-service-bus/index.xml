@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azure-service-buses on Murph-Ferg&#39;s Cloud Blog</title>
+    <link>https://www.engineer.cloud/azure-service-bus/</link>
+    <description>Recent content in Azure-service-buses on Murph-Ferg&#39;s Cloud Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Jan 2021 21:39:59 -0500</lastBuildDate><atom:link href="https://www.engineer.cloud/azure-service-bus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure Service Bus Transport Type</title>
+      <link>https://www.engineer.cloud/azure-service-bus/transport-type/</link>
+      <pubDate>Sun, 24 Jan 2021 21:39:59 -0500</pubDate>
+      
+      <guid>https://www.engineer.cloud/azure-service-bus/transport-type/</guid>
+      <description>Azure Service Bus Transport Type By default, the Azure Service Bus will use a TransportType of Advanced Message Queuing Protocol (AMQP), which uses the assigned port number is 5672 or 5671 for AMQPS (TLS/SSL encrypted AMQP). These ports appear blocked on either Crowe laptops, or the Crowe network. Since I don’t have admin rights on my laptop, I couldn’t determine if this is a local firewall or an enterprise networking issue.</description>
+    </item>
+    
+  </channel>
+</rss>

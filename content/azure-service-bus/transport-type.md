@@ -1,7 +1,7 @@
 ---
 title: "Azure Service Bus Transport Type"
 date: 2021-01-24T21:39:59-05:00
-draft: true
+draft: false
 ---
 # Azure Service Bus Transport Type
 By default, the Azure Service Bus will use a TransportType of Advanced Message Queuing Protocol (AMQP), which uses the assigned port number is 5672 or 5671 for AMQPS (TLS/SSL encrypted AMQP). These ports appear blocked on either Crowe laptops, or the Crowe network. Since I don’t have admin rights on my laptop, I couldn’t determine if this is a local firewall or an enterprise networking issue.

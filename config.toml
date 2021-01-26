@@ -1,4 +1,4 @@
-baseURL = "http://engineer.cloud/"
+baseURL = "https://www.engineer.cloud/"
 languageCode = "en-us"
 title = "Murph-Ferg's Cloud Blog"
 theme = "air"

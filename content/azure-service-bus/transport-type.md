@@ -2,7 +2,11 @@
 title: "Azure Service Bus Transport Type"
 date: 2021-01-24T21:39:59-05:00
 draft: false
+description: "All things Azure and AWS"
 ---
+
+
+
 # Azure Service Bus Transport Type
 By default, the Azure Service Bus will use a TransportType of Advanced Message Queuing Protocol (AMQP), which uses the assigned port number is 5672 or 5671 for AMQPS (TLS/SSL encrypted AMQP). These ports can be blocked in some enterprises.
 

@@ -17,7 +17,7 @@
      Azure-service-buses &middot;  Murph-Ferg&#39;s Cloud Blog
   </title>
 
-    <meta name="description" content="this is my description" />
+    <meta name="description" content="All things AWS &amp; Azure" />
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -102,7 +102,7 @@
       <p>
           <section class="post-content">
             <h1 id="azure-service-bus-transport-type">Azure Service Bus Transport Type</h1>
-<p>By default, the Azure Service Bus will use a TransportType of Advanced Message Queuing Protocol (AMQP), which uses the assigned port number is 5672 or 5671 for AMQPS (TLS/SSL encrypted AMQP). These ports appear blocked on either Crowe laptops, or the Crowe network. Since I don’t have admin rights on my laptop, I couldn’t determine if this is a local firewall or an enterprise networking issue.</p>
+<p>By default, the Azure Service Bus will use a TransportType of Advanced Message Queuing Protocol (AMQP), which uses the assigned port number is 5672 or 5671 for AMQPS (TLS/SSL encrypted AMQP). These ports can be blocked in some enterprises.</p>
 <p>It is not well documented, but there are ways to configure the Azure Service Bus clients to use WebSockets, on port 443, which is never blocked, because this is also the assigned port for SSL or HTTPS.</p>
 <h2 id="net-service-bus-client">.Net Service Bus client</h2>
 <p>For a .Net service bus client pushing a message to a Service Bus, you can use the ServiceBusClientOptions object. as follows. ServiceBusClientOptions is an argument you can use when constructing a ServiceBusClient object. Since the ServiceBusClient object is the one that initiates a connection to a ServiceBus, it is easy to establish the TransportType at initial connection to use AmqpWebSockets.</p>
@@ -127,7 +127,7 @@ SocketException: An existing connection was forcibly closed by the remote host.
             <img class="author-thumb" src="https://www.engineer.cloud/images/user.png" alt="Author image" nopin="nopin" />
         
         
-            syui
+            Murph-Ferg
         
         
         <time class="post-date" datetime="2021-01-24T21:39:59-05:00">

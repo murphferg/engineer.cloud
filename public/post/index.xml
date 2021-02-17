@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Murph-Ferg&#39;s Cloud Blog</title>
+    <title>Posts on Ferg&#39;s Cloud Blog</title>
     <link>https://www.engineer.cloud/post/</link>
-    <description>Recent content in Posts on Murph-Ferg&#39;s Cloud Blog</description>
+    <description>Recent content in Posts on Ferg&#39;s Cloud Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://www.engineer.cloud/post/index.xml" rel="self" type="application/rss+xml" />

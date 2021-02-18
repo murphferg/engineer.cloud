@@ -6,7 +6,6 @@ description: "All things Azure and AWS"
 ---
 
 
-
 # Azure Service Bus Transport Type
 By default, the Azure Service Bus will use a TransportType of Advanced Message Queuing Protocol (AMQP), which uses the assigned port number is 5672 or 5671 for AMQPS (TLS/SSL encrypted AMQP). These ports can be blocked in some enterprises.
 
@@ -33,3 +32,4 @@ For an Azure Function, the Service Bus itself (or the Azure intermediary that tr
 Endpoint=sb://croinsdevncusmessagingsb.servicebus.windows.net/;SharedAccessKeyName=FunctionAppAccessKey;SharedAccessKey=xyzExampleKey123;TransportType=AmqpWebSockets
 ```
 The first part of the connection string was from the Azure Service Bus, and the part in red was added later to change the TransportType so that the Ip Port of 443 is used for the trigger.
+ 
